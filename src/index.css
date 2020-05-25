@@ -1,10 +1,134 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Gravity-Regular;
+  src: url(/fonts/Gravity-Regular.otf);
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+
+.Dashboard {
+  /* 
+When you say height:100% it is calculated using parents height! If parent don't have a specific height browser cannot determine child's height in percentage!
+On solution you can use is css3 vuewport unit, vh 
+*/
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/bg1.jpg);
+}
+
+.Skills {
+  /* 
+When you say height:100% it is calculated using parents height! If parent don't have a specific height browser cannot determine child's height in percentage!
+On solution you can use is css3 vuewport unit, vh 
+*/
+  height: 60vh;
+  background-color: #191919;
+  font-family: "Gravity-Regular";
+  color: white;
+}
+
+.Footer {
+  /* 
+When you say height:100% it is calculated using parents height! If parent don't have a specific height browser cannot determine child's height in percentage!
+On solution you can use is css3 vuewport unit, vh 
+*/
+  height: 40vh;
+  background-color: #191919;
+  font-family: "Gravity-Regular";
+  color: white;
+}
+
+.Projects {
+  /* 
+When you say height:100% it is calculated using parents height! If parent don't have a specific height browser cannot determine child's height in percentage!
+On solution you can use is css3 vuewport unit, vh 
+*/
+  height: 100vh;
+  font-family: "Gravity-Regular";
+  color: black;
+}
+
+#global-nav {
+  color: white;
+  height: 100px;
+  font-family: Gravity-Regular;
+}
+
+.homeDiv {
+  font-family: "Gravity-Book";
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.center-skills {
+  position: relative;
+
+}
+
+.center-project {
+  position: relative;
+}
+
+.center-footer {
+  text-align: center;
+}
+.card {
+  width: 18em;
+}
+
+.imgs {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.imgs1{
+  margin: 10px;
+  width: 37px;
+  height: 37px;
+}
+
+.row-list{
+  border: 1px solid red;
+}
+
+.col-xs-2{
+  background:#00f;
+  color:#FFF;
+}
+.col-half-offset{
+  margin-left:4.166666667%
+}
+
+#line{
+  color: white;
+  background-color: white;
+}
+
+#copyright {
+  font-size: 10px;
+}
+
+
+.titleMain {
+  font-family: "Gravity-Regular";
+  letter-spacing: 20px;
+}
+
+.btn {
+  margin-top: 30px;
+  color: black;
 }
 
 code {
