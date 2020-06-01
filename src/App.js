@@ -14,13 +14,13 @@ class App extends Component {
         <div className="App">
           {/* <Navbar /> */}
           <Switch>
-            < Route exact path = '/' component = {Dashboard}/>
+            < Route path = {process.env.PUBLIC_URL + '/'} component = {Dashboard}/>
           </Switch>
         </div>
         <Skills/>
         <Projects/>
         <Footer/>
-      </BrowserRouter>
+        </BrowserRouter>
     )
   }
 }

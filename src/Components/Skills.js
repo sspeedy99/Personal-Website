@@ -52,6 +52,7 @@ const Skills = () => {
             <h6><i class="fa fa-check" aria-hidden="true"></i>Hackerearth</h6>
             </div>
         </div> 
+        <br/><br/>
     </div> 
     </div>
     )

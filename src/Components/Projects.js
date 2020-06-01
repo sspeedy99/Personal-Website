@@ -65,6 +65,7 @@ const Projects = () => {
     These are the few of the projects I have done. You can find more about my work on  my <a href="https://github.com/sspeedy99" target="_blank">  Github</a> page.
 
             </div>
+            <br/><br/>
         </div>
     )
 }

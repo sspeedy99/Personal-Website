@@ -26,7 +26,7 @@ On solution you can use is css3 vuewport unit, vh
 When you say height:100% it is calculated using parents height! If parent don't have a specific height browser cannot determine child's height in percentage!
 On solution you can use is css3 vuewport unit, vh 
 */
-  height: 60vh;
+  /* height: 60vh; */
   background-color: #191919;
   font-family: "Gravity-Regular";
   color: white;
@@ -37,7 +37,7 @@ On solution you can use is css3 vuewport unit, vh
 When you say height:100% it is calculated using parents height! If parent don't have a specific height browser cannot determine child's height in percentage!
 On solution you can use is css3 vuewport unit, vh 
 */
-  height: 40vh;
+  /* height: 40vh; */
   background-color: #191919;
   font-family: "Gravity-Regular";
   color: white;
@@ -48,7 +48,7 @@ On solution you can use is css3 vuewport unit, vh
 When you say height:100% it is calculated using parents height! If parent don't have a specific height browser cannot determine child's height in percentage!
 On solution you can use is css3 vuewport unit, vh 
 */
-  height: 100vh;
+  /* height: 100vh; */
   font-family: "Gravity-Regular";
   color: black;
 }

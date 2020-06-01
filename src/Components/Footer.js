@@ -17,6 +17,7 @@ const Footer = () => {
         <h6 id="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> Shashi Prakash 2020</h6>
 
         </div>
+        <br/><br/>
         </div>
     )
 }
